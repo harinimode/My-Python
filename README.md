@@ -32,23 +32,47 @@ Quality-Inspection-Image-Classifier/
 
 
 ├── README.md                     # Project documentation
+
+
 ├── LICENSE                       # License file
+
+
 ├── .gitignore                    # Ignore venv/cache/temp
+
+
 │
 ├── data/                         # Dataset root
+
 │   ├── Category1/
+
 │   │   ├── train/
+
 │   │   │   └── good/             # Approved training samples
+
+
 │   │   └── test/
+
 │   │       ├── good/             # Defect-free test samples
+
 │   │       └── defect_type1/     # Defective test samples
+
 │   ├── Category2/
+
+
 │   │   └── ...                   # Additional categories
 │
+
+
 ├── outputs/                      # Generated outputs
+
+
 │   └── e3_final_one.xlsx         # Excel with inspection results
+
+
 │
 └── docs/                         # Documentation & usage examples
+
+
     └── usage_examples.md
 
 ⚙️ Installation
